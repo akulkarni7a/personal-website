@@ -39,8 +39,6 @@ background: #E4E4E4;
 	padding-top: 60px;
 	text-align: center;
 	margin-left: 10px;
-
-
 }
 
 .introtag{
@@ -62,6 +60,10 @@ background: #E4E4E4;
    	background-size: cover;
 }*/
 
+
+
+
+
 html { 
   background: url(../images/IMGP2066.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -71,6 +73,67 @@ html {
 }
 body { background: transparent; }
 
+ul{
+	list-style-type: none;
+}
+
+.navbar-toggler{
+	display: inline;
+}
+
+#navinline{
+	display: inline;
+}
+
+button{
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    display: inline;
+    float: left;
+}
+
+@media screen and (min-width: 769px) {
+    button{
+    	visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    nav{
+    	background-color: #b1bbc8;
+    }
+}
+
+
+@media screen and (max-width: 1065px) {
+    .introtag{
+		display: block;
+		padding-right: 80px;
+		padding-left: 80px;
+		border-right: 1px solid;
+		color: #000000;
+	}
+
+
+}
+
+@media screen and (max-width: 550px) {
+    
+
+.navbaritems{
+		display: block;
+	}
+
+#mainnav{
+	margin-left: -50px;
+}
+
+
+}
 
 
 
