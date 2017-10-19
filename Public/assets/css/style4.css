@@ -249,14 +249,17 @@ button{
     button{
     	visibility: hidden;
     }
+    .modal {
+    	height: 1200px; /* Full height */
+	}
 }
 
 @media screen and (max-width: 769px) {
     nav{
     	background-color: #f2f2f2;
     }
-}
 
+}
 
 @media screen and (max-width: 1065px) {
     .introtag{
@@ -280,6 +283,10 @@ button{
 #mainnav{
 	margin-left: -50px;
 }
+
+.modal {
+    	height: 1300px; /* Full height */
+	}
 
 
 }
